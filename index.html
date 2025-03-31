@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NAIF SHOP</title>
+    <link rel="stylesheet" href="styles.css">
+  
+</head>
+<body>
+
+    <!-- 배경 음악 -->
+    <audio id="backgroundMusic" autoplay loop muted>
+        <source src="background.mp3" type="audio/mp3">
+        Votre navigateur ne supporte pas l'audio.
+    </audio>
+    
+
+    <!-- 네비게이션 바 -->
+    <header>
+        <h1>NAIF SHOP</h1>
+        <button id="toggleMusic">음악 켜기</button>
+        <nav>
+            <ul>
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">PRODUIT</a></li>
+                <li><a href="#">INFO</a></li>
+                <li class="cart"><a href="#">CART 🛒</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- 상품 목록 -->
+    <section class="products">
+        <div class="product">
+            <video autoplay loop muted>
+                <source src="T-shirts.mp4" type="video/mp4">
+                Votre navigateur ne supporte pas la lecture de vidéo.
+            </video>
+            <h2 id="warningA">TYPE-A</h2>
+        </div>
+        <div class="product">
+            <video autoplay loop muted>
+                <source src="Skimask.mp4" type="video/mp4">
+                Votre navigateur ne supporte pas la lecture de vidéo.
+            </video>
+            <h2 id="warningB">TYPE-B</h2>
+        </div>
+        <div class="product">
+            <video autoplay loop muted>
+                <source src="Gants.mp4" type="video/mp4">
+                Votre navigateur ne supporte pas la lecture de vidéo.
+            </video>
+            <h2 id="warningC">TYPE-C</h2>
+        </div>
+    </section>
+
+    <!-- 푸터 -->
+    <footer>
+        <p>LE MONDE EST À NOUS</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
