@@ -1,4 +1,4 @@
 # sijun_kim
 
 
-1. 0331 깃허브 등록햇음
+ https://sijunkim11.github.io/sijun_kim/
